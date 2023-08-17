@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUser } from './usersSlice';
 
+
 const PostItem = ({ post }) => {
   const [userVisible, setUserVisible] = useState(false);
   const dispatch = useDispatch();
